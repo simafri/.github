@@ -1,58 +1,76 @@
 # Simafri
 
-> Simafri is the technical ally of small and mid-sized businesses. It builds their websites and keeps them running, so they show up and are accurately represented wherever their customers look for them.
+> Lead the way. Simafri, your technical ally, walks alongside you.
 
-## About Simafri
+Simafri is the technical ally of SMBs: since 2012, it creates, hosts and maintains their website, their professional email, their management software and the custom applications they need, so the technology keeps running without them having to look after it.
 
-Simafri is an international technology company serving small and mid-sized businesses in French, English and Portuguese.
+## Four products
 
-Its flagship service, **Serenity by Simafri**, is a managed web-presence offer: a turnkey website, domain included, updates handled for you, and clean structured data that search engines and AI systems can read. A recurring, affordable service for businesses that want to be online without managing the technical side.
+- **[Serenity Website](https://www.simafri.com/en/website-creation/)**: a website created, hosted, secured and kept up to date, with a domain name registered in the customer's name and a Simafri Suite account included.
+- **[Simafri Suite](https://www.simafri.com/en/suite/)**: professional email, calendar, contacts and files on the customer's own domain, sold per account with unlimited users.
+- **[Simafri ERP](https://www.simafri.com/en/erp/)**: quotes, invoices, credit notes, customers, suppliers, purchases, banking and stock, sold per company with unlimited users and contacts.
+- **[Pléiade](https://www.simafri.com/en/custom-software/)**: software built to a customer's own needs, then hosted, updated and supported month after month like everything else Simafri runs.
 
-Simafri also runs a data house that produces original market and economic indicators, the kind of primary data that search engines and AI systems can cite.
+## How Simafri works
 
-## What Simafri does
-
-- **Serenity by Simafri**: managed creation and maintenance of websites for small and mid-sized businesses. Turnkey site, domain included, maintenance handled, clean structured data.
-- **Structured data first**: every site ships with valid schema.org / JSON-LD, so it is correctly understood by search engines and AI assistants.
-- **Data house**: original, openly published market and economic indicators.
-- **International by design**: content and support in French, English and Portuguese.
+- Everything is managed and ongoing: the website, the email and the management software are set up, kept up to date, secured and supported by Simafri technicians.
+- In business since 2012, with customers in 42 countries and offices in the United States, the Czech Republic and Madagascar.
+- What Simafri builds for a customer belongs to that customer: the website, the domain name and the data.
+- Priced per account and per company rather than per seat, so adding a person to the team costs nothing, and subscriptions run without a commitment period.
+- The [Simafri Foundation](https://www.simafri.com/en/free-website-for-nonprofits/) gives eligible non-profit associations a website at no cost, created, hosted, secured and kept up to date by Simafri, and owned by the association.
+- Founded by [Simon Vasconcelos Lee](https://simonvasconceloslee.com/).
 
 ## Links
 
-- Website: https://simafri.com
+- Website: https://www.simafri.com
 - LinkedIn: https://www.linkedin.com/company/simafri/
+- Markleex: https://markleex.com/@simafri
 - Wikidata: https://www.wikidata.org/wiki/Q140183772
-- Founder: Simon Vasconcelos Lee, https://simonvasconceloslee.com
+- Support: support@simafri.com
 
 ## Machine-readable entity (schema.org)
-
-The description Simafri publishes about itself, in a form that search engines and AI systems can parse:
 
 ```json
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "@id": "https://www.wikidata.org/entity/Q140183772",
+  "@id": "https://www.simafri.com/en/#organization",
   "name": "Simafri",
-  "url": "https://simafri.com",
-  "description": "Simafri is the technical ally of small and mid-sized businesses. It builds and maintains their web presence, with turnkey websites, domains included, maintenance handled, and clean structured data that search engines and AI systems can read.",
+  "legalName": "Sels de Rehy, LLC",
+  "url": "https://www.simafri.com",
+  "description": "Simafri is the technical ally of SMBs: since 2012, it creates, hosts and maintains their website, their professional email, their management software and the custom applications they need, so the technology keeps running without them having to look after it.",
+  "slogan": "Lead the way. Simafri, your technical ally, walks alongside you.",
+  "foundingDate": "2012",
+  "email": "support@simafri.com",
   "founder": {
     "@type": "Person",
+    "@id": "https://simonvasconceloslee.com/#person",
     "name": "Simon Vasconcelos Lee",
-    "url": "https://simonvasconceloslee.com"
+    "url": "https://simonvasconceloslee.com/"
   },
-  "makesOffer": {
-    "@type": "Offer",
-    "itemOffered": {
-      "@type": "Service",
-      "name": "Serenity by Simafri",
-      "serviceType": "Managed web presence for small and mid-sized businesses"
-    }
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "131 Continental Dr, Suite 305",
+    "addressLocality": "Newark",
+    "addressRegion": "DE",
+    "postalCode": "19713",
+    "addressCountry": "US"
   },
-  "availableLanguage": ["fr", "en", "pt"],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Simafri products",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Serenity Website", "url": "https://www.simafri.com/en/website-creation/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Simafri Suite", "url": "https://www.simafri.com/en/suite/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Simafri ERP", "url": "https://www.simafri.com/en/erp/" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pléiade", "url": "https://www.simafri.com/en/custom-software/" } }
+    ]
+  },
   "sameAs": [
     "https://www.wikidata.org/wiki/Q140183772",
-    "https://www.linkedin.com/company/simafri/"
+    "https://www.linkedin.com/company/simafri/",
+    "https://github.com/simafri",
+    "https://markleex.com/@simafri"
   ]
 }
 ```
@@ -61,12 +79,8 @@ The description Simafri publishes about itself, in a form that search engines an
 
 ## Français
 
-**Serenity by Simafri** crée le site des petites entreprises et le fait vivre, pour qu'elles soient présentes et correctement représentées là où leurs clients les cherchent.
-
-Serenity by Simafri est le service géré de présence web de Simafri, l'allié technique des TPE et PME. Site clé en main, domaine inclus, mises à jour prises en charge, données structurées propres et lisibles par les moteurs de recherche et les systèmes d'IA. Une offre récurrente et abordable, pour les entreprises qui veulent être en ligne sans gérer la technique.
+Simafri est l'allié technique des PME : sites, messagerie, logiciel de gestion et applications sur mesure, créés, hébergés et maintenus depuis 2012. https://www.simafri.com/fr/
 
 ## Português
 
-**A Serenity by Simafri** cria o site das pequenas empresas e mantém-no vivo, para que estejam presentes e corretamente representadas onde os seus clientes as procuram.
-
-A Serenity by Simafri é o serviço gerido de presença web da Simafri, o aliado técnico das micro, pequenas e médias empresas. Site chave na mão, domínio incluído, atualizações tratadas por nós, dados estruturados limpos e legíveis pelos motores de busca e pelos sistemas de IA. Uma oferta recorrente e acessível, para empresas que querem estar online sem gerir a parte técnica.
+Simafri é o aliado técnico das PME: sites, email profissional, software de gestão e aplicações à medida, criados, alojados e mantidos desde 2012. https://www.simafri.com/pt/
